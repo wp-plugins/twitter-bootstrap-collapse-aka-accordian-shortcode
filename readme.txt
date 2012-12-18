@@ -16,16 +16,10 @@ This plugin adds [collapse_group] and [collapse] shortcode to generate twitter b
 
 Usage:
 
-
-[collapse_group id="optional_group_1" class="optional_class"]
-
-	[collapse title="my heading1" id="optional_id" open="y/n"]some text[/collapse]
-
-	[collapse title="my heading2" id="optional_id" open="y/n"]some text[/collapse]
-
-[/collapse_group]
-
-
+	[collapse_group id="optional_group_1" class="optional_class"]
+		[collapse title="my heading1" id="optional_id" open="y/n"]some text[/collapse]
+		[collapse title="my heading2" id="optional_id" open="y/n"]some text[/collapse]
+	[/collapse_group]
 
 See output of this code in Screenshots
 
