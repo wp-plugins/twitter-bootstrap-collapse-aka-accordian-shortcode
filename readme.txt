@@ -8,17 +8,22 @@ Stable tag: 3.4.2
 License: GPLv2
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-This plugin adds [collapse_groupe] and [collapse] shortcode to generate twitter bootstrap's collapse aka accordian. 
+This plugin adds [collapse_group] and [collapse] shortcode to generate twitter bootstrap's collapse aka accordian. 
 
 == Description ==
 
-This plugin adds [collapse_groupe] and [collapse] shortcode to generate twitter bootstrap's collapse aka accordian. 
+This plugin adds [collapse_group] and [collapse] shortcode to generate twitter bootstrap's collapse aka accordian. 
 
 Usage:
 [collapse_group id="optional_group_1" class="optional_class"]
+
 	[collapse title="my heading1" id="optional_id" open="y/n"]some text[/collapse]
+
 	[collapse title="my heading2" id="optional_id" open="y/n"]some text[/collapse]
+
 [/collapse_group]
+
+See output of this code in Screenshots
 
 == Installation ==
 
@@ -26,7 +31,7 @@ How to install the plugin and get it working.
 
 1. Upload `twitter-bootstrap-collapse-shortcode` folder to the `/wp-content/plugins/` directory
 2. Activate the plugin through the 'Plugins' menu in WordPress
-3. You can now use [collapse_groupe] and [collapse] shortcode for your accordian.
+3. You can now use [collapse_group] and [collapse] shortcode for your accordian.
 
 == Frequently Asked Questions ==
 
@@ -50,5 +55,5 @@ You can download Twitter Bootstrap from their official website http://twitter.gi
 == Changelog ==
 
 = 1.0 =
-* Implemented [collapse_groupe] and [collapse] as per Twitter Bootstrap v2.2.2
+* Implemented [collapse_group] and [collapse] as per Twitter Bootstrap v2.2.2
 * Another change.
